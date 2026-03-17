@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOKDIL Saglik Kelimeleri Aristophia</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #161d33;
+      --text: #eef2ff;
+      --muted: #a9b4d0;
+      --line: rgba(255,255,255,0.08);
+      --accent: #5ea0ff;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(94,160,255,0.22), transparent 28%),
+        linear-gradient(180deg, #0b1020, #0d1324);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: min(960px, calc(100% - 32px));
+      margin: 40px auto 72px;
+    }
+
+    .hero, .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.18);
+    }
+
+    .hero { margin-bottom: 20px; }
+    .card { margin-top: 16px; }
+
+    h1, h2 { margin: 0 0 12px; }
+    h1 { font-size: clamp(34px, 6vw, 52px); }
+    h2 { font-size: 22px; }
+    p, li { color: var(--muted); }
+    ul { margin: 0; padding-left: 20px; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); font-size: 14px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>YOKDIL Saglik Kelimeleri Aristophia</h1>
+      <p class="meta">YOKDIL Saglik ve Tipdil hazirligi icin odakli kelime sistemi</p>
+      <p>
+        YOKDIL Saglik Kelimeleri Aristophia, saglik alaninda ihtiyac duyulan Ingilizce kelimeleri daha duzenli,
+        daha anlasilir ve daha tekrar edilebilir bir akisla calistirmak icin gelistirildi.
+      </p>
+    </section>
+
+    <section class="grid">
+      <section class="card">
+        <h2>Kimler icin</h2>
+        <p>YOKDIL Saglik, Tipdil ve genel saglik Ingilizcesi kelime temeli kurmak isteyen kullanicilar icin uygundur.</p>
+      </section>
+
+      <section class="card">
+        <h2>Ne sunar</h2>
+        <p>Harf bazli ilerleme, ornek cumleler, telaffuz destegi, favoriler ve hizli tekrar akisi ile tek yerde duzenli calisma sunar.</p>
+      </section>
+
+      <section class="card">
+        <h2>Premium ne acar</h2>
+        <p>Premium erisim tum harfleri, tum kelimeleri ve tam calisma duzenini acar. Ayrica favori ve tekrar akisini kesintisiz kullanmani saglar.</p>
+      </section>
+    </section>
+
+    <section class="card">
+      <h2>Temel ozellikler</h2>
+      <ul>
+        <li>0'dan Basla, Sinav Odagi ve Tum Kelimeler modlari</li>
+        <li>Kelimeyi ornek cumle icinde gorme ve sesli dinleme</li>
+        <li>Zorlanilan kelimeleri favorilere alip hizli tekrar yapma</li>
+        <li>Sade ve dikkat dagitmayan calisma deneyimi</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Baglantilar</h2>
+      <p><a href="../support/">Destek</a></p>
+      <p><a href="../privacy/">Gizlilik Politikasi</a></p>
+      <p><a href="../terms/">Kullanim Kosullari</a></p>
+    </section>
+  </main>
+</body>
+</html>
