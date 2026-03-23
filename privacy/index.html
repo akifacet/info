@@ -26,7 +26,7 @@
     }
 
     .wrap {
-      width: min(860px, calc(100% - 32px));
+      width: min(920px, calc(100% - 32px));
       margin: 40px auto 72px;
     }
 
@@ -48,77 +48,101 @@
     ul { margin: 0; padding-left: 20px; }
     a { color: var(--accent); }
     .meta { color: var(--muted); font-size: 14px; }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .links a {
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(255,255,255,0.03);
+    }
   </style>
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
       <h1>Gizlilik Politikası</h1>
-      <p class="meta">YÖKDİL Sağlık Kelimeleri Aristophia için son güncelleme: 15 Mart 2026</p>
+      <p class="meta">Son güncelleme: 23 Mart 2026</p>
       <p>
-        YOKDIL Saglik Kelimeleri Aristophia, YOKDIL Saglik hazirligi icin kelime calismasini sade ve hizli hale getirmek amaciyla
-        gelistirilmistir. Bu politika, uygulama kapsaminda hangi verilerin islenebildigini ve bunlarin hangi
-        amaclarla kullanildigini aciklar.
+        YÖKDİL Sağlık Kelimeleri Aristophia, YÖKDİL Sağlık ve Tıpdil hazırlığında kelime çalışmasını daha düzenli ve
+        sürdürülebilir hale getirmek için geliştirilmiştir. Bu politika, uygulama kapsamında hangi verilerin
+        işlenebildiğini, bunların hangi amaçlarla kullanıldığını ve hangi hizmetlerle sınırlı olarak paylaşılabildiğini açıklar.
+      </p>
+      <div class="links">
+        <a href="../support/">Destek</a>
+        <a href="../terms/">Kullanım Koşulları ve EULA</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>1. Genel yaklaşım</h2>
+      <p>
+        Uygulama hesap oluşturmadan kullanılabilir. Sağlık verisi toplamak, reklam amacıyla profil çıkarmak veya kullanıcı davranışını
+        takip etmek için tasarlanmamıştır.
       </p>
     </section>
 
     <section class="card">
-      <h2>1. Genel ilke</h2>
-      <p>YOKDIL Saglik Kelimeleri Aristophia hesap olusturmadan kullanilabilir. Uygulama, saglik verisi toplamak veya tibbi hizmet sunmak amaciyla tasarlanmamistir.</p>
-    </section>
-
-    <section class="card">
-      <h2>2. Islenebilen veriler</h2>
+      <h2>2. İşlenebilen veriler</h2>
       <ul>
-        <li>Favorilere eklenen kelimeler</li>
-        <li>Premium erisim ve satin alma durumu</li>
-        <li>Satin alma geri yukleme ve abonelik dogrulama kayitlari</li>
-        <li>Sinirli teknik hata veya destek sureci bilgileri</li>
+        <li>Favorilere eklenen kelimeler ve cihaz içi çalışma tercihleri</li>
+        <li>Premium erişim durumu ve satın alma doğrulama bilgileri</li>
+        <li>Satın alma geri yükleme ve abonelik doğrulama kayıtları</li>
+        <li>Destek için bizimle paylaştığınız sınırlı iletişim bilgileri</li>
       </ul>
-      <p>YOKDIL Saglik Kelimeleri Aristophia kullanicidan saglik kaydi, klinik veri veya reklam amacli davranis profili talep etmez.</p>
     </section>
 
     <section class="card">
-      <h2>3. Verilerin kullanim amaci</h2>
+      <h2>3. Verilerin kullanım amacı</h2>
       <ul>
-        <li>Favori listenizi cihaz uzerinde saklamak</li>
-        <li>Premium erisimi acmak veya dogrulamak</li>
-        <li>Satin alma ve geri yukleme islemlerini yurutmek</li>
-        <li>Destek taleplerine yardimci olmak</li>
-        <li>Uygulamanin temel islevlerini guvenilir sekilde sunmak</li>
+        <li>Favori listenizi cihaz üzerinde saklamak</li>
+        <li>Premium erişimi açmak, doğrulamak veya geri yüklemek</li>
+        <li>Destek taleplerine yanıt verebilmek</li>
+        <li>Uygulamanın temel teknik işleyişini güvenilir biçimde sürdürebilmek</li>
       </ul>
     </section>
 
     <section class="card">
       <h2>4. Veri saklama</h2>
-      <p>Favori kelimeler cihaz uzerinde yerel olarak saklanir. Uygulama silindiginde bu yerel veriler de silinebilir.</p>
-      <p>Satin alma ve abonelikle iliskili bazi kayitlar Apple ve RevenueCat sistemlerinde kendi saklama politikalarina gore tutulabilir.</p>
+      <p>
+        Favori verileri cihaz üzerinde yerel olarak saklanır. Uygulama silindiğinde bu yerel veriler de silinebilir.
+      </p>
+      <p>
+        Satın alma ve abonelikle ilişkili bazı kayıtlar Apple ve RevenueCat sistemlerinde kendi saklama politikalarına göre tutulabilir.
+      </p>
     </section>
 
     <section class="card">
-      <h2>5. Ucuncu taraf hizmetler</h2>
-      <p>YOKDIL Saglik Kelimeleri Aristophia asagidaki hizmetlerden yararlanabilir:</p>
+      <h2>5. Üçüncü taraf hizmetler</h2>
+      <p>Uygulama aşağıdaki hizmetlerden yararlanabilir:</p>
       <ul>
         <li>Apple In-App Purchase</li>
         <li>RevenueCat</li>
       </ul>
-      <p>Bu hizmetler yalnizca abonelik, satin alma dogrulama ve geri yukleme sureclerini yonetmek icin kullanilir.</p>
+      <p>
+        Bu hizmetler yalnızca abonelik, satın alma doğrulama ve geri yükleme süreçlerini yönetmek için kullanılır.
+      </p>
     </section>
 
     <section class="card">
-      <h2>6. Veri paylasimi</h2>
-      <p>YOKDIL Saglik Kelimeleri Aristophia kullanici verilerini reklam satisi amaciyla ucuncu taraflarla paylasmaz.</p>
-      <p>Veriler yalnizca uygulamanin satin alma, abonelik ve teknik islevlerinin yerine getirilmesi icin gerekli hizmet saglayicilarla sinirli kapsamda islenebilir.</p>
+      <h2>6. Veri paylaşımı</h2>
+      <p>
+        Kullanıcı verileri reklam satışı amacıyla üçüncü taraflarla paylaşılmaz. Veriler yalnızca uygulamanın satın alma,
+        abonelik ve temel teknik işlevlerini yerine getirmek için gerekli hizmet sağlayıcılarla sınırlı kapsamda işlenebilir.
+      </p>
     </section>
 
     <section class="card">
-      <h2>7. Cocuklarin gizliligi</h2>
-      <p>YOKDIL Saglik Kelimeleri Aristophia genel egitim amaclidir. Bilincli sekilde cocuklardan kisisel veri toplamak uzere tasarlanmamistir.</p>
-    </section>
-
-    <section class="card">
-      <h2>8. Iletisim</h2>
-      <p>Gizlilikle ilgili soru veya destek talepleri icin: <a href="mailto:info@aristophia.com">info@aristophia.com</a></p>
+      <h2>7. İletişim</h2>
+      <p>
+        Gizlilikle ilgili sorularınız veya talepleriniz için:
+        <a href="mailto:info@aristophia.com">info@aristophia.com</a>
+      </p>
     </section>
   </main>
 </body>
