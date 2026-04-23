@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YDS YÖKDİL Kelime Ezberleme</title>
+  <style>
+    :root {
+      --bg: #0f1320;
+      --card: #171d2d;
+      --text: #eef2f7;
+      --muted: #a8b0c4;
+      --line: rgba(255,255,255,0.08);
+      --accent: #6a93ff;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(106,147,255,0.18), transparent 28%),
+        linear-gradient(180deg, #0e1220, #111727);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: min(960px, calc(100% - 32px));
+      margin: 40px auto 72px;
+    }
+
+    .hero, .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.18);
+    }
+
+    .hero { margin-bottom: 20px; }
+    .card { margin-top: 16px; }
+
+    h1, h2 { margin: 0 0 12px; }
+    h1 { font-size: clamp(34px, 6vw, 52px); }
+    h2 { font-size: 22px; }
+    p, li { color: var(--muted); }
+    ul { margin: 0; padding-left: 20px; }
+    a { color: var(--accent); }
+
+    .meta { color: var(--muted); font-size: 14px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>YDS YÖKDİL Kelime Ezberleme</h1>
+      <p class="meta">Tamamen çevrimdışı çalışan sade ve premium kelime çalışma deneyimi</p>
+      <p>
+        YDS ve YÖKDİL hazırlığında yüksek frekanslı kelimeleri daha temiz, daha hızlı ve daha doğal bir çalışma akışıyla
+        tekrar etmek için tasarlanmış iOS uygulaması.
+      </p>
+    </section>
+
+    <section class="grid">
+      <section class="card">
+        <h2>Ne sunar</h2>
+        <p>İngilizce kelime, kelime türü, Türkçe açıklama ve iki örnek cümleyi tek kart üzerinde sade biçimde sunar.</p>
+      </section>
+
+      <section class="card">
+        <h2>Nasıl çalışır</h2>
+        <p>Kaldığın yer cihazında saklanır. Favoriler ve arama ile hızlı tekrar yapılabilir. Uygulama her açılışta yeniden karışmaz.</p>
+      </section>
+
+      <section class="card">
+        <h2>İlk sürüm odağı</h2>
+        <p>Offline kullanım, stabil akış, hızlı arama, favoriler ve dikkat dağıtmayan doğal iOS deneyimi.</p>
+      </section>
+    </section>
+
+    <section class="card">
+      <h2>Önemli Not</h2>
+      <p>
+        Bu uygulamanın ÖSYM ile veya herhangi bir resmi kurum, kamu kurumu, resmi kuruluş, sınav otoritesi ya da düzenleyici kurum ile
+        hiçbir bağlantısı, ilişkisi, ortaklığı, sponsorluğu, onayı, yetkilendirmesi veya resmi bağı bulunmamaktadır.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Bağlantılar</h2>
+      <p><a href="../support/">Destek</a></p>
+      <p><a href="../privacy/">Gizlilik Politikası</a></p>
+      <p><a href="../terms/">Kullanım Koşulları ve EULA</a></p>
+    </section>
+  </main>
+</body>
+</html>

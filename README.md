@@ -8,6 +8,10 @@ GitHub Pages icin beklenen yapi:
 - `privacy/index.html`
 - `terms/index.html`
 - `support/index.html`
+- `yyke/marketing/index.html`
+- `yyke/privacy/index.html`
+- `yyke/terms/index.html`
+- `yyke/support/index.html`
 - `.nojekyll`
 
 Yayin sonrasi adresler:
@@ -16,6 +20,10 @@ Yayin sonrasi adresler:
 - `https://akifacet.github.io/info/privacy/`
 - `https://akifacet.github.io/info/terms/`
 - `https://akifacet.github.io/info/support/`
+- `https://akifacet.github.io/info/yyke/marketing/`
+- `https://akifacet.github.io/info/yyke/privacy/`
+- `https://akifacet.github.io/info/yyke/terms/`
+- `https://akifacet.github.io/info/yyke/support/`
 
 Onemli:
 
