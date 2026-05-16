@@ -12,6 +12,10 @@ GitHub Pages icin beklenen yapi:
 - `yyke/privacy/index.html`
 - `yyke/terms/index.html`
 - `yyke/support/index.html`
+- `pdf-compress/marketing/index.html`
+- `pdf-compress/privacy/index.html`
+- `pdf-compress/terms/index.html`
+- `pdf-compress/support/index.html`
 - `.nojekyll`
 
 Yayin sonrasi adresler:
@@ -24,6 +28,14 @@ Yayin sonrasi adresler:
 - `https://akifacet.github.io/info/yyke/privacy/`
 - `https://akifacet.github.io/info/yyke/terms/`
 - `https://akifacet.github.io/info/yyke/support/`
+- `https://akifacet.github.io/info/pdf-compress/marketing/`
+- `https://akifacet.github.io/info/pdf-compress/privacy/`
+- `https://akifacet.github.io/info/pdf-compress/terms/`
+- `https://akifacet.github.io/info/pdf-compress/support/`
+
+PDF Sıkıştır & Küçült Offline icin Apple Standart EULA:
+
+- `https://www.apple.com/legal/internet-services/itunes/dev/stdeula/`
 
 Onemli:
 
